@@ -8,7 +8,7 @@ body, h1, h2, h3, ul, li, a {
 
 /* Estilização do header */
 header {
-    background-color: #333;
+    background-color: #ccabd8;
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -16,6 +16,7 @@ header {
 
 header h1 {
     margin-bottom: 0.5rem;
+    margin-top: 1rem;
 }
 
 /* Estilização do menu */
@@ -38,12 +39,19 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: #b474a1;
+    color: #e9dddd;
 }
 
 /* Estilo do conteúdo principal */
 main {
     padding: 2rem;
+    text-align: center;
+}
+
+/* Mudando a cor do h2 do main */
+main h2{
+    color: #6ec6ca;
 }
 
 /* Estilo para ocultar elementos */
