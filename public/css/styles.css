@@ -41,6 +41,7 @@ nav a {
 nav a:hover {
     background-color: #b474a1;
     color: #e9dddd;
+    cursor: pointer;
 }
 
 /* Estilo do conteúdo principal */
